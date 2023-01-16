@@ -29,10 +29,12 @@
     - git status
     - git add test.sh
     - git commit -m "Test"
+    - git commit -am "Description of the changes"
     - git push 
     - git chekout master
-    - git branch -d <branch_name>
-    - git push origin --delete <branch_name
+    - git checkout -b <branch_name>: Its a new way to create the branch if it does not exist. It depends on the refrence branch like if you are in main than it will create a brance refencing the main branch
+    - git branch -D/d <branch_name> (-d will give warning that the branch is not fully merged so use -D)
+    - git push origin --delete <branch_name>
   ```
  <br />
 <p align = "center">
