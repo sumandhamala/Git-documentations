@@ -1,19 +1,37 @@
+### 
+- git help < git command like push or what ever you want to know >
+- git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project.
+- git clone: &nbsp; Copies an existing Github repo to local machine.
+- git status: &nbsp; checks the working dorectory to see if up-to-date with the remote repo. 
+- git add . : add all the changes to the staging area of the working directory. This is the first step in commiting changes to your local versions of the repo before pushing them to the remote GIthub version of the repo. 
+- git commit -m "provide the commit message": &nbsp; Git records the changes made to yur version of the repo. 
+- git push: &nbsp; pushes the local repo changes to the remote repo. To push the chnages you need username and classical token (no PW accepted now days)
+- git pull:&nbsp; 
+- git status: &nbsp;
 
-- [MarkDown Tips and Tricks](#markdown-tips-and-tricks)
-    - [`Headers:`](#headers)
-    - [`Text Decorations:`](#text-decorations)
-    - [`Links:`](#links)
-    - [`Images:`](#images)
-    - [`Unordered and Ordered List:`](#unordered-and-ordered-list)
-    - [`Code Blocks:`](#code-blocks)
-    - [`Inline code block:`](#inline-code-block)
-    - [`Tables:`](#tables)
-    - [` Blockquotes:`](#-blockquotes)
-    - [`Horizontal Rules:`](#horizontal-rules)
-    - [`Youtubes videos Link:`](#youtubes-videos-link)
-    - [`Comments which does not render`](#comments-which-does-not-render)
-    - [`Callouts`](#callouts)
-    - [`Resources:`](#resources)
+
+<p align = "center">
+<img src="Git_flow.png"  alt="drawing" width="300"/>
+<figcaption align = "center">  Fig.1 - Best description of the git work flow. Picture credit goes to bytebytego.com </figcaption>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21,6 +39,10 @@
 # MarkDown Tips and Tricks
 ###  `Headers:`
  - #H1, ## H2, ## H3, H4 ###, H5 ####, ......
+_____________________________________________________________________
+  ### `Space and paragraph change:`
+- <br />  changes the paragraph
+- &nbsp; add space between the words
 ________________________________________________________________________
 ### `Text Decorations:`  
 - **bold**, *italic*, 
