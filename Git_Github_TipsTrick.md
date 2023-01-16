@@ -1,6 +1,10 @@
-### 
+### What is GIt?
+Git is a version control software which comes pre installed with linux/mac but have to download for 
+windows. Git is a memory card for a code. 
+
+
 - git help < git command like push or what ever you want to know >
-- git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project.
+- git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project. Its like putting a momry in that particular folder.
 - git clone: &nbsp; Copies an existing Github repo to local machine.
 - git status: &nbsp; checks the working dorectory to see if up-to-date with the remote repo. 
 - git add . : add all the changes to the staging area of the working directory. This is the first step in commiting changes to your local versions of the repo before pushing them to the remote GIthub version of the repo. 
@@ -35,8 +39,13 @@
     - git checkout -b <branch_name>: Its a new way to create the branch if it does not exist. It depends on the refrence branch like if you are in main than it will create a brance refencing the main branch
     - git branch -D/d <branch_name> (-d will give warning that the branch is not fully merged so use -D)
     - git push origin --delete <branch_name>
+    - git commit --ammend --no-edit
   ```
- <br />
+ 
+ 
+ 
+ 
+<br />
 <p align = "center">
 <img src="Git_flow.png"  alt="drawing" width="300"/>
 <figcaption align = "center">  Fig.1 - Best description of the git work flow. Picture credit goes to bytebytego.com </figcaption>
