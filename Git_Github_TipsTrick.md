@@ -8,8 +8,33 @@
 - git push: &nbsp; pushes the local repo changes to the remote repo. To push the chnages you need username and classical token (no PW accepted now days)
 - git pull:&nbsp; 
 - git status: &nbsp;
+- git branch: &nbsp; 
+  
+  
+  <br />
+  <br /> 
 
+  
+  ### `Git branch`
+  Git branch allows you to work independent environment so that your changes don't affect other branches until you merge.
 
+  ```  
+    - git status
+    - git branch <branch_name>
+    - git branch -a
+    - git push -u origin <branch_name>
+    - git checkout <branch_name>
+    - git status
+    - echo "test >> test.sh
+    - git status
+    - git add test.sh
+    - git commit -m "Test"
+    - git push 
+    - git chekout master
+    - git branch -d <branch_name>
+    - git push origin --delete <branch_name
+  ```
+ <br />
 <p align = "center">
 <img src="Git_flow.png"  alt="drawing" width="300"/>
 <figcaption align = "center">  Fig.1 - Best description of the git work flow. Picture credit goes to bytebytego.com </figcaption>
