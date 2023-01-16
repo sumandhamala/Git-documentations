@@ -29,10 +29,11 @@
     - git status
     - git add test.sh
     - git commit -m "Test"
+    - git commit -am "Description of the changes"
     - git push 
     - git chekout master
-    - git branch -d <branch_name>
-    - git push origin --delete <branch_name
+    - git branch -D/d <branch_name> (-d will give warning that the branch is not fully merged so use -D)
+    - git push origin --delete <branch_name>
   ```
  <br />
 <p align = "center">
