@@ -1,7 +1,6 @@
-### What is GIt?
+### What is Git?
 Git is a version control software which comes pre installed with linux/mac but have to download for 
-windows. Git is a memory card for a code. 
-
+windows. Git is a memory card for a code or folder in your local computer to track the changes made and to time travel in the older version if needs come. To track any folder in your computer: go to that particular folder and do git init. Ls -la will give you a .git directory. MAke some changes and follow add/commit and push to save the chnages made. 
 
 - git help < git command like push or what ever you want to know >
 - git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project. Its like putting a momry in that particular folder.
@@ -40,6 +39,8 @@ windows. Git is a memory card for a code.
     - git branch -D/d <branch_name> (-d will give warning that the branch is not fully merged so use -D)
     - git push origin --delete <branch_name>
     - git commit --ammend --no-edit
+    - git checkout <commit token from git log>: to go back intime and see previous commit.
+    - git pull origin master: to pull the Gthub repo master branch to the local computer to sync between them else will be trouble.
   ```
  
  
