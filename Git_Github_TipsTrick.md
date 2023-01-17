@@ -45,6 +45,54 @@ windows. Git is a memory card for a code or folder in your local computer to tra
  
  
  
+- git --version:&nbsp; Check the version 
+- git config --global user.name "  "
+- git config --user.email "your email" 
+- git config --list
+- git help <command> or git <command> --help
+- git init: &nbsp; start tracking a project 
+- rm -rf .git: if you wanna remove a git tracking for a particular project
+- git status: 
+- touch .gitignore
+- git add -A or git add . or git add <what you want to file>
+- git reset <what you want to remove from staging area>
+- git commit -m "Detail description"
+- git log: see commit that we have made 
+- git clone <url> <where you want to clone>
+- git clone https://github.com/sumandhamala/pySparkTraining.git  /Users/sumandhamala/pySpark 
+- git remote -v : information abot clone 
+- git branch -a
+- git diff: shows the chnages made to the project or code
+- git status 
+- git add -A
+- git status 
+- git commit -m "message"
+- git pull origin master or main : it pull the remote repo to sync with other developer since last time we have pull it
+- git push origin master or main :   push the commits to the remore repo.
+- git branch <branch_name>
+- git  branch:  list all the branches 
+- git checkout <branch_name>
+- git push -u origin <branch_name>: (-u associates local to remote repo)
+- git branch -a:to see all branches 
+- git checkout master
+- git pull origin master 
+- git branch --merged
+- git merge <name_branch>
+- git push origin master
+- git branch --merged
+- git branch -d <branch_name>
+- git push origin --delete <branch_name>
+-     
+- 
+
+
+
+
+
+
+
+
+ 
  
 <br />
 <p align = "center">
