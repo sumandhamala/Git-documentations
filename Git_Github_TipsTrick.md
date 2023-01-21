@@ -1,9 +1,9 @@
 ### What is Git?
 Git is a version control software which comes pre installed with linux/mac but have to download for 
-windows. Git is a memory card for a code or folder in your local computer to track the changes made and to time travel in the older version if needs come. To track any folder in your computer: go to that particular folder and do git init. Ls -la will give you a .git directory. MAke some changes and follow add/commit and push to save the chnages made. 
+windows. Git is a memory card for a code or folder in your local computer to track the changes made and to time travel in the older version if needs come. To track any folder in your computer: go to that particular folder and do git init. ls -la will give you a .git directory. Make some changes and follow add/commit and push to save the changes made. 
 
 - git help < git command like push or what ever you want to know >
-- git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project. Its like putting a momry in that particular folder.
+- git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project. Its like putting a memory in that particular folder.
 - git clone: &nbsp; Copies an existing Github repo to local machine.
 - git status: &nbsp; checks the working dorectory to see if up-to-date with the remote repo. 
 - git add . : add all the changes to the staging area of the working directory. This is the first step in commiting changes to your local versions of the repo before pushing them to the remote GIthub version of the repo. 
