@@ -2,6 +2,19 @@
 Git is a version control software which comes pre installed with linux/mac but have to download for 
 windows. Git is a memory card for a code or folder in your local computer to track the changes made and to time travel in the older version if needs come. To track any folder in your computer: go to that particular folder and do git init. ls -la will give you a .git directory. Make some changes and follow add/commit and push to save the changes made. 
 
+<br />  
+
+`How to create Github repo from command line`
+
+```
+curl -u "sumandhamala" https://api.github.com/user/repos -d '{"name":"New_Repo_Name", "private":true}' 
+- Provide authentication as github token/PW does not work. 
+-Change name of the repo
+curl -u "$USER:$TOKEN" -X PATCH -d "$newName" https://api.github.com/repos/$user/$oldName
+```
+
+<br />
+
 - git help < git command like push or what ever you want to know >
 - git init:   &nbsp;  Initializes a git repository by creating initial .git directory in a new or in an existing project. Its like putting a memory in that particular folder.
 - git clone: &nbsp; Copies an existing Github repo to local machine.
